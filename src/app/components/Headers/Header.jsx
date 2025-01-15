@@ -17,7 +17,7 @@ const Header = () => {
                 <div className="w-[60px]">
                     <ThemeChange />
                 </div>
-                <div className="px-4 h-10 flex justify-center items-center cursor-pointer bg-gray-400 rounded-2xl">
+                <div className="px-4 h-10 flex justify-center items-center cursor-pointer select-none bg-gray-400 rounded-2xl hover:bg-gray-500 transition-all duration-300">
                     Descargar
                 </div>
                 
