@@ -1,11 +1,13 @@
 import HeaderMobile from "../components/Headers/HeaderMobile";
-import SidebarMobile from "../components/Sidebar/SidebarMobile";
+import Header from "../components/Headers/Header";
+import Section1 from "./sections/Section-1.jsx";
 
 const Home = () => {
     return (
-        <div className="w-full min-h-screen flex flex-col  items-center bg-gray-100">
+        <div className="w-full min-h-screen flex flex-col  items-center ">
             <HeaderMobile />
-            <div className="w-full h-64 bg-blue-800"></div>
+            <Header />
+            <Section1 />
         </div>
     )
 }

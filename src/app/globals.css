@@ -1,3 +1,51 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+* {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.logo-text {
+    line-height: 0.9; /* Reduce el espacio entre líneas */
+     /* Reduce el espacio entre letras */
+  }
+  
+  .traders {
+    font-size: 70px; /* o el tamaño que prefieras */
+    font-weight: 800;
+    margin-bottom: -5px; /* Ajusta el espacio entre Traders y Tracker */
+  }
+  
+  .tracker {
+    font-size: 70px; /* Ligeramente más pequeño que Traders */
+    font-weight: 800;
+  }
+
+@media (min-width: 768px) {
+    .traders {
+        font-size: 100px;
+    }
+    .tracker {
+        font-size: 100px;
+    }
+}
+
+@media (min-width: 1280px) {
+    .traders {
+        font-size: 120px;
+    }
+    .tracker {
+        font-size: 120px;
+    }
+}
+
+@media (min-width: 1536px) {
+    .traders {
+        font-size: 140px;
+    }
+    .tracker {
+        font-size: 140px;
+    }
+}
+
